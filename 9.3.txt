@@ -1,0 +1,21 @@
+? What is meant by FlumeNG ?
+We can start the Flume agent using the flume-ng command in flume architecture.this command is used to set the configuration for the flume agent. 
+Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from 
+many different sources to a centralized data store.this command is used to set the configuration for the flume agent
+
+====================================================================================================================================
+yes,the event flow through the channel is encripted and encapsulated which achieved 100 % end to end reliablity
+
+===================================================================================================================================
+? Can Flume can distributes data to multiple destinations?
+yes the event can flow from one source to multiple channels or multiple destinations.it is achieved by flow multiplier.
+===================================================================================================================================
+? Explain about the different channel types in Flume. And which channel type is
+faster?
+Memory channel:here the data passed through the channel is not saved after the transaction.
+
+File channel:here the data passed through the channel is saved in form of a file for event reference.
+ 
+Memory channel is faster compared to file channel as it does not have to save the event data.therefore the workload is reduced.
+
+===================================================================================================================================
